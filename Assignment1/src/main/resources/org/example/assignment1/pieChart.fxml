@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.assignment1.MainController">
+
+   <children>
+      <PieChart fx:id="pieChart" layoutX="50.0" layoutY="50.0" prefHeight="300.0" prefWidth="500.0" />
+
+      <Button fx:id="tableViewButton" layoutX="475.0" layoutY="360.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" styleClass="button-style" text="View Data" />
+
+      <Text fill="#000000" layoutX="212.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-text" text="Rajasthan's Sex Ratio" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
